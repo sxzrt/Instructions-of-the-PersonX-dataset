@@ -26,6 +26,7 @@ How to get different viewpoints of the person?
 ![fig2](https://github.com/sxzrt/Dissecting-Person-Re-identification-from-the-Viewpoint-of-Viewpoint/blob/master/images/manager.jpg) 
 * Add the scripts on the three components as follows (or directly use the example manager in example_camera.unitypackage)
 ![fig3](https://github.com/sxzrt/Dissecting-Person-Re-identification-from-the-Viewpoint-of-Viewpoint/blob/master/images/generate.jpg) 
+* Run the Game Manager in Unity can get the images of person with different viewpoints. 
 
 **** 
 ##### The original images and unity project will be released ASAP.
