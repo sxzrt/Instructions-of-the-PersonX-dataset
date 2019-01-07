@@ -16,8 +16,13 @@ We release 3D models of the identeties and the 1266 models can be downloaded fro
 [Google Drive](https://drive.google.com/file/d/1d2PuKD60qFpugbqYfMHtjKmRj9OUdPG4/view?usp=sharing)
 
 The package can be imported into any program of Unity directly. 
-*  "person1-1266.unitypackage" is a Unity package that contain the original 3D models of the identities. 
- 
+*  "person1-1266.unitypackage" is a Unity package that contain the original 3D models of the identities. You can double-click the package to improt is it into your project. 
+*  The version of Unity used in this work is [2018.1.8f1 Personal](https://unity3d.com/unity/whatsnew/unity-2018.1.8)  that can be downloaed from the [Unity Website](https://unity3d.com/).
+*  The scenes (backgourds) can be selected or designed based on your demand and there are many free sources in Unity Asset Store. If you want to used the scenes used in this work, please send an email to xxsunzrt@gmail.com.
+
+How to get different viewpoints of the person?
+* 
+
 **** 
 ##### The original images and unity project will be released ASAP.
 
