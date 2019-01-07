@@ -11,23 +11,12 @@ For researching viewpoint, we use six backgrounds in this version (as shown in a
 
 ****
 ## Datasets
-We release the images from different backgrounds, respectively. <br>
-The dataset can be downloaded from the following links:<br>
-[Baidu Disk]()<br>
-[Google Drive](https://drive.google.com/file/d/1TUe_p_siXxrjCzmny-IR8wtXE8BECriC/view?usp=sharing)
+We release 3D models of the identeties and the 1266 models can be downloaded from the following links:<br>
+[Baidu Disk](https://pan.baidu.com/s/1nXdrniA7IDgJDKq6FexFJA)<br>
+[Google Drive](https://drive.google.com/file/d/1d2PuKD60qFpugbqYfMHtjKmRj9OUdPG4/view?usp=sharing)
 
-The package contains six folders and two files. 
-1) The six folders "1" to "6" correspond to the six backgrounds. Each floders contain three sub-folders: "bounding_box_train", "bounding_box_test" and "query". 
-     * "bounding_box_test". There are 30,816 images in this folder used for testing.
-     * "bounding_box_train". There are 14,760 images in this folder used for training.
-     * "query". There are 865 identities. We randomly select one query image for each person of one background. <br>
-   `The six backgrounds can be combined in pairs as illustrated in the paper to get PersonX12, PersonX13, etc., datasets.` 
-2) "person1-1266.unitypackage" is a Unity package that contain the 3D original models of the identities. 
-3) "train_test.mat" is used to split the 1266 identities into the trainning and testing set, in which "0" and "1" represents the person is selected into traning (0) or testing set (1), respectively. In this work, we randomly sample 410
-identities for training and 856 identities for testing. 
-
- Following the naming rule of Market-1501 dataset, we name the images as follows:<br>
-  *e.g.，* "0001_c1s1_03.jpg", "0001" is the ID of this person. "c1" is the camera shooting the first background and there are totally 6 backgrounds. "03" meams that the rotation angle (viewpoint) of the person in this images is <a href="https://www.codecogs.com/eqnedit.php?latex=0^{\circ}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10^{\circ}" title="30^{\circ}" /></a> (3 * 10). "s1" is used to keep similar name rule with the Market-1501 dataset, so it dose not has special meaning.
+The package can be imported into Unity directly. 
+*  "person1-1266.unitypackage" is a Unity package that contain the 3D original models of the identities. 
  
 **** 
 ##### The original images and unity project will be released ASAP.
