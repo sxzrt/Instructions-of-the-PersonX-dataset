@@ -21,7 +21,11 @@ The package can be imported into any program of Unity directly.
 *  The scenes (backgourds) can be selected or designed based on your demand and there are many free sources in Unity Asset Store. If you want to used the scenes used in this work, please send an email to xxsunzrt@gmail.com.
 
 How to get different viewpoints of the person?
-* 
+* Import the scripts in "Scripts" into your project.
+* Create a Game manager(Create Empty) in Unity and create two Camera and one Cube in the manager.
+![fig2](https://github.com/sxzrt/Dissecting-Person-Re-identification-from-the-Viewpoint-of-Viewpoint/blob/master/images/manager.jpg) 
+* Add the scripts on the three components as follows (or directly use the example manager in example_camera.unitypackage)
+![fig3](https://github.com/sxzrt/Dissecting-Person-Re-identification-from-the-Viewpoint-of-Viewpoint/blob/master/images/generate.jpg) 
 
 **** 
 ##### The original images and unity project will be released ASAP.
