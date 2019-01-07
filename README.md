@@ -14,7 +14,7 @@ For researching viewpoint, we use six backgrounds in this version (as shown in a
 We release the images from different backgrounds, respectively. <br>
 The dataset can be downloaded from the following links:<br>
 [Baidu Disk]()<br>
-[Google Drive]()
+[Google Drive](https://drive.google.com/file/d/1TUe_p_siXxrjCzmny-IR8wtXE8BECriC/view?usp=sharing)
 
 The package contains six folders and two files. 
 1) The six folders "1" to "6" correspond to the six backgrounds. Each floders contain three sub-folders: "bounding_box_train", "bounding_box_test" and "query". 
@@ -26,7 +26,19 @@ The package contains six folders and two files.
 3) "train_test.mat" is used to split the 1266 identities into the trainning and testing set, in which "0" and "1" represents the person is selected into traning (0) or testing set (1), respectively. In this work, we randomly sample 410
 identities for training and 856 identities for testing. 
 
-Following the naming rule of Market-1501 dataset, we name the images as follows:
->> *e.g.，* "0001_c1s1_03.jpg", "0001" is the ID of this person. "c1" is the camera shooting the first background and there are totally 6 backgrounds. "03" meams that the rotation angle (viewpoint) of the person in this images is <a href="https://www.codecogs.com/eqnedit.php?latex=0^{\circ}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10^{\circ}" title="30^{\circ}" /></a> (3 * 10). "s1" is used to keep similar name rule with the Market-1501 dataset, so it dose not has special meaning.
+ Following the naming rule of Market-1501 dataset, we name the images as follows:<br>
+  *e.g.，* "0001_c1s1_03.jpg", "0001" is the ID of this person. "c1" is the camera shooting the first background and there are totally 6 backgrounds. "03" meams that the rotation angle (viewpoint) of the person in this images is <a href="https://www.codecogs.com/eqnedit.php?latex=0^{\circ}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10^{\circ}" title="30^{\circ}" /></a> (3 * 10). "s1" is used to keep similar name rule with the Market-1501 dataset, so it dose not has special meaning.
  
- 
+**** 
+##### The original images and unity project will be released ASAP.
+
+If you use this dataset in your research, please kindly cite our work as, <br>
+```
+@article{DBLP:journals/corr/abs-1812-02162,
+  author    = {Xiaoxiao Sun and Liang Zheng},
+  title     = {Dissecting Person Re-identification from the Viewpoint of Viewpoint},
+  journal   = {CoRR},
+  volume    = {abs/1812.02162},
+  year      = {2018}
+}
+```
