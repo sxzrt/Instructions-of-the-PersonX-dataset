@@ -29,8 +29,10 @@ How to get different viewpoints of the person?
 * Run the Game Manager in Unity can get the images of person with different viewpoints. 
 
 **** 
-##### The original images and unity project will be released ASAP.
+#####  `The original images and unity project will be released ASAP.`
 
+
+**** 
 If you use this dataset in your research, please kindly cite our work as, <br>
 ```
 @article{DBLP:journals/corr/abs-1812-02162,
