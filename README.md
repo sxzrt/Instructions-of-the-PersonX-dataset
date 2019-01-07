@@ -15,8 +15,8 @@ We release 3D models of the identeties and the 1266 models can be downloaded fro
 [Baidu Disk](https://pan.baidu.com/s/1nXdrniA7IDgJDKq6FexFJA)<br>
 [Google Drive](https://drive.google.com/file/d/1d2PuKD60qFpugbqYfMHtjKmRj9OUdPG4/view?usp=sharing)
 
-The package can be imported into Unity directly. 
-*  "person1-1266.unitypackage" is a Unity package that contain the 3D original models of the identities. 
+The package can be imported into any program of Unity directly. 
+*  "person1-1266.unitypackage" is a Unity package that contain the original 3D models of the identities. 
  
 **** 
 ##### The original images and unity project will be released ASAP.
