@@ -1,4 +1,4 @@
-# Dissecting-Person-Re-identification-from-the-Viewpoint-of-Viewpoint
+# The PersonX Dataset
 
 In this paper, we build a synthetic data engine PersonX that can generate images under controllable cameras and environment.
 The dataset from PersonX is shown to be as indicative as real-world datasets. Second, based on PersonX, we conduct comprehensive experiment to quantitatively assess the influence of pedestrian viewpoint on person re-ID accuracy. Specifically, the PerxonX engine is built on Unity and its details are as follows.
