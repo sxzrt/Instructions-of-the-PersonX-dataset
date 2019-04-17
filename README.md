@@ -33,11 +33,10 @@ How to get different viewpoints of the person?
 **** 
 If you use this dataset in your research, please kindly cite our work as, <br>
 ```
-@article{DBLP:journals/corr/abs-1812-02162,
-  author    = {Xiaoxiao Sun and Liang Zheng},
-  title     = {Dissecting Person Re-identification from the Viewpoint of Viewpoint},
-  journal   = {CoRR},
-  volume    = {abs/1812.02162},
-  year      = {2018}
+@inproceedings{sun2019dissecting,
+	title={Dissecting Person Re-identification from the Viewpoint of Viewpoint},
+	author={Sun, Xiaoxiao and Zheng, Liang},
+	booktitle={CVPR},
+	year={2019}
 }
 ```
