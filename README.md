@@ -22,12 +22,12 @@ The package can be imported into any program of Unity directly.
 
 We have supplied a example of a controller "example-controllerc.unitypackage" that can make the person to rotate and can capture the images automatically.
 
-1) Import the example-controller in to your project (*e.g.,* new project)
+#### 1. Import the example-controller in to your project (*e.g.,* new project)
 
 <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/1.png" width="400" /></div>
 
 
-2) Add the controller (Game_Manager) into the project
+#### 2. Add the controller (Game_Manager) into the project
 <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/2.png" width="400" /></div>
 
  There are three components in the Game_Manager: PeoplePosition, Camera and Main Camera as follows.
@@ -40,7 +40,7 @@ We have supplied a example of a controller "example-controllerc.unitypackage" th
  <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/5.png" width="400" /></div>
 
 
-3) three things to notice
+#### 3. three things to notice
  
  **!!**  two paths:
  <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/6.png" width="400" /></div>
@@ -54,7 +54,7 @@ We have supplied a example of a controller "example-controllerc.unitypackage" th
   To matching of the frames between two cameras, the first inputted person will loss one image. So we use ID 0 (a copy of ID 1) to initial the process. 
 
 
-3) Run ▶️ the Game_Manager in Unity can get the images of a person with different viewpoints. 
+#### 4. Run ▶️ the Game_Manager in Unity can get the images of a person with different viewpoints. 
 
 **** 
 #####  `The original images and unity project will be released ASAP.`
