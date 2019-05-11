@@ -24,7 +24,7 @@ We have supplied a example of a controller "example-controllerc.unitypackage" th
 
 * Import the example-controller in to your project (*e.g.,* new project)
 
-<div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/1.png" width="400" height="500"  /></div>
+<div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/1.png" width="400" height="300"  /></div>
 
 
 * Add the controller (Game_Manager) into the project
