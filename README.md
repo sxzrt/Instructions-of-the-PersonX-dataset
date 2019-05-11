@@ -22,12 +22,12 @@ The package can be imported into any program of Unity directly.
 
 We have supplied a example of a controller "example-controllerc.unitypackage" that can make the person to rotate and can capture the images automatically.
 
-* Import the example-controller in to your project (*e.g.,* new project)
+1) Import the example-controller in to your project (*e.g.,* new project)
 
 <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/1.png" width="400" height="300"  /></div>
 
 
-* Add the controller (Game_Manager) into the project
+2) Add the controller (Game_Manager) into the project
 <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/2.jpeg" width="400" /></div>
 
  There are three components in the Game_Manager: PeoplePosition, Camera and Main Camera as follows.
@@ -39,9 +39,22 @@ We have supplied a example of a controller "example-controllerc.unitypackage" th
  Main Camera and Camera are used to generate a pair of images that have cintains the same person in same position. One is    without background and its person with a red border, which is used to caculate the bounding box of the person:
  <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/5.png" width="400" /></div>
 
- 
 
-* Run ▶️ the Game_Manager in Unity can get the images of a person with different viewpoints. 
+3) three things to notice
+ 
+ **!!**  two paths:
+ <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/6.png" width="400" /></div>
+
+ The name of path1 shoud be "Resources"; the 24th line of Manager.cs is the path to save the generated images, which is  better be the sub-path of the project.
+ 
+  **!!**  the ID of the first person:
+  
+   <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/7.png" width="400" /></div>
+  
+  To matching of the frames between two cameras, the first inputted person will loss one image. So we use ID 0 (a copy of ID 1) to initial the process. 
+
+
+3) Run ▶️ the Game_Manager in Unity can get the images of a person with different viewpoints. 
 
 **** 
 #####  `The original images and unity project will be released ASAP.`
