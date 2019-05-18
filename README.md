@@ -45,16 +45,21 @@ We have supplied a example of a controller "example-controllerc.unitypackage" th
  **!!**  two paths:
  <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/6.png" width="400" /></div>
 
- The name of path1 shoud be "Resources"; the 24th line of Manager.cs is the path to save the generated images, which is  better be the sub-path of the project.
+The name of path1 shoud be "Resources", in which are the models of person such as A1;
+
+The 24th line of Manager.cs is the path to save the generated images, which is better **not** to be the sub-path of the project (because  Unity will import the generating images, which will slow the generation process.).
  
   **!!**  the ID of the first person:
   
    <div align=left><img src="https://github.com/sxzrt/Instructions-of-the-PersonX-dataset/blob/master/images/7.png" width="400" /></div>
   
-  To matching of the frames between two cameras, the first inputted person will loss one image. So we use ID 0 (a copy of ID 1) to initial the process. 
+To matching of the frames between two cameras, the first inputted person will loss one image. Therefore, we use ID 0 (a copy of ID 1) to initial the process, which dose not count towards the 1266 identities. 
 
 
 #### 4. Run ▶️ the Game_Manager in Unity can get the images of a person with different viewpoints. 
+
+
+#### 5. The script crop_bbox.m can be used to get bounding boxes of person, crop and rename images.
 
 **** 
 #####  `The original images and unity project will be released ASAP.`
