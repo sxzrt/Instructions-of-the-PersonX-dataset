@@ -33,18 +33,21 @@ public class LoadRole : MonoBehaviour
         GameObject obj = FindRole(sameName, roleID);
         if (obj != null)
         {
-            if (currentRole.Length != 2)
-            {
+//            if (currentRole.Length != 2)
+//           {
                 currentRole = new GameObject[2];
-            }
+//          }
             targetPeople = GameObject.Instantiate(obj, this.transform.position, Quaternion.Euler(0, 0, 0));
             currentRole[0] = targetPeople;
             ChangeLayer(currentRole[0]);
             currentRole[0].transform.SetParent(this.transform);
-            targetPeople = GameObject.Instantiate(obj, this.transform.position, Quaternion.Euler(0, 0, 0));
-            currentRole[1] = targetPeople;
-            currentRole[1].transform.SetParent(this.transform);
-            SetOutLine(currentRole[1]);
+            //currentRole[0].layer=
+
+
+            //targetPeople = GameObject.Instantiate(obj, this.transform.position, Quaternion.Euler(0, 0, 0));
+            //currentRole[1] = targetPeople;
+            //currentRole[1].transform.SetParent(this.transform);
+            //SetOutLine(currentRole[1]);
         }
         else
         {
@@ -59,7 +62,7 @@ public class LoadRole : MonoBehaviour
         Transform[] transforms = trans.GetComponentsInChildren<Transform>();
         for (int i = 0; i < transforms.Length; i++)
         {
-            transforms[i].gameObject.layer = LayerMask.NameToLayer("Default");
+            transforms[i].gameObject.layer = LayerMask.NameToLayer("role");
         }
     }
 

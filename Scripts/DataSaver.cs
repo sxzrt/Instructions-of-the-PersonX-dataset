@@ -3,7 +3,7 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 
-public class DataSaver : MonoBehaviour
+public class DataSaver
 {
     private Texture2D texture;
     private Texture2D cameraTexture;

@@ -21,7 +21,7 @@ public class Manager : MonoBehaviour
     {
         dataSaver = new DataSaver();
         // path = Application.dataPath;
-        path = "/Users/xiaoxiaosun/person-im";
+        path = "/Users/cs-group/person-im";
         //path = "/Volumes/SXX^_^/person-im";
         loadRole = GetComponent<LoadRole>();
         loadRole.stringLength = sameName.Length;
@@ -48,13 +48,13 @@ public class Manager : MonoBehaviour
 
             //旋转模型
             loadRole.currentRole[0].transform.Rotate(Vector3.up, -rotateAngle);
-            loadRole.currentRole[1].transform.Rotate(Vector3.up, -rotateAngle);
+//            loadRole.currentRole[1].transform.Rotate(Vector3.up, -rotateAngle);
             //随机位置
             if (randomPosition)
             {
                 position = randomPosition.GetRandomPosition(loadRole.currentRole[0].transform.localPosition);
                 loadRole.currentRole[0].transform.localPosition = position;
-                loadRole.currentRole[1].transform.localPosition = position;
+ //             loadRole.currentRole[1].transform.localPosition = position;
             }
 
             index++;
@@ -63,7 +63,11 @@ public class Manager : MonoBehaviour
         {
             //销毁模型
             Destroy(loadRole.currentRole[0]);
-            Destroy(loadRole.currentRole[1]);
+  //          Destroy(loadRole.currentRole[1]);
+
+            //clean apace
+            loadRole.currentRole = null; 
+            Resources.UnloadUnusedAssets();
 
             //加载下一个模型，然后初始化
             loadRole.GeneratePeople(sameName, ++roleID);
