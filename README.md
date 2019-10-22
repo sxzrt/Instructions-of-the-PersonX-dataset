@@ -69,38 +69,43 @@ Game_Manager_Demo
 ├── PeoplePosition  # control the position, rotation interval of the person
 │   
 │     
-├── Camara # capture images of person
+├── Camara # capture images of person without background
 │ 
 │ 
-└── Main Camera # capture images of person without background
+└── Main Camera # capture images of person 
 ```
  
- Main Camera and Camera are used to generate a pair of images that have cintains the same person in same position. One is    without background and its person with a red border, which is used to caculate the bounding box of the person:
+ Main Camera and Camera are used to generate a pair of images that have cintains the same person in same position. One is    without background, which is used to caculate the bounding box of the person:
 
 
 
-#### 3. three things to notice
+#### 3. Notice
+
+
+ **!!**  the property of people and two cameras:
+
+* The layer of all person is role;
+* The culling mask of Camera is role (only)，so images captured by Camera contains the person without background;
+* The culling mask of Main Camera is Everything.
+
+
+* The 24th line of Manager.cs is the path to save the generated images, which is better **not** to be the sub-path of the project (because  Unity will import the generating images, which will slow the generation process.).
+ 
  
  **!!**  two paths:
 
 
-The name of path1 shoud be "Resources", in which are the models of person such as A1;
+* The name of the path containing the person models shoud be "Resources" (iyou can directly import our unitypackage);
 
-The 24th line of Manager.cs is the path to save the generated images, which is better **not** to be the sub-path of the project (because  Unity will import the generating images, which will slow the generation process.).
+* The 24th line of Manager.cs is the path to save the generated images, which is better **not** to be the sub-path of the project (because  Unity will import the generating images, which will slow the generation process.).
  
-  **!!**  the ID of the first person:
+
+**!!**  the ID of the first person:
     
 To matching of the frames between two cameras, the first inputted person will loss one image. Therefore, we use ID 0 (a copy of ID 1) to initial the process, which dose not count towards the 1266 identities. 
 
 
-#### 4. Run ▶️ the Game_Manager in Unity can get the images of a person with different viewpoints. 
-
-
-#### 5. The script crop_bbox.m can be used to get bounding boxes of person, crop and rename images.
-
-**** 
-## Notice
-* Unity of 2018.1.8 f1 and high version can open the Game_Manager_Demo.unitypackage, but if you have transferred 
+#### 4. The script crop_bbox.m can be used to get bounding boxes of person, crop and rename images.
 
 **** 
 If you use this dataset in your research, please kindly cite our work as, <br>
