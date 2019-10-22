@@ -102,7 +102,7 @@ Game_Manager_Demo
 
 **!!**  the ID of the first person:
     
-To matching of the frames between two cameras, the first inputted person will loss one image. Therefore, we use ID 0 (a copy of ID 1) to initial the process, which dose not count towards the 1266 identities. 
+* To matching of the frames between two cameras, the first inputted person will loss one image. Therefore, we use ID 0 (a copy of ID 1) to initial the process, which dose not count towards the 1266 identities. 
 
 
 #### 4. The script crop_bbox.m can be used to get bounding boxes of person, crop and rename images.
