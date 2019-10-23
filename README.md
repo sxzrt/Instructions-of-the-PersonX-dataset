@@ -45,9 +45,6 @@ PersonX_v1
 └── readme.txt
 ```
 
-### Data of a new baseline
-This datatet also contains 6 cameras, but it is more chanllending than the data used in CVPR19. The data and results will come soon!
-
 Name of the image
 
 Taking "0001_c1s1_33.jpg" as an example: 
@@ -55,6 +52,11 @@ Taking "0001_c1s1_33.jpg" as an example:
 *  c1   is the id of the camera (background)
 *  s1   has no special meaning
 *  33   is the viewpoint of the person
+
+
+### Data of a new baseline
+This datatet also contains 6 cameras, but it is more chanllending than the data used in CVPR19. The data and results will come soon!
+
 
 
 ## Instructions of the System
