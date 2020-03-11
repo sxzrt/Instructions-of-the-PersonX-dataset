@@ -54,8 +54,12 @@ Taking "0001_c1s1_33.jpg" as an example:
 *  33   is the viewpoint of the person
 
 
-### Data of a new baseline
-This datatet also contains 6 cameras, but it is more chanllending than the data used in CVPR19. The data and results will come soon!
+### A more chanllenging subset of PersonX
+This datatet also contains 6 cameras, but it is more chanllending than the data used in CVPR19. We add occlusion, different resolution and illumination in this subset. 
+* Baidu Yun Drive: 
+	* images [link](https://pan.baidu.com/s/1DyUWMKxLPHbiEs9RuKq7xA) (code:g2q5)<br>
+* Google Drive: 
+	* images [link](https://drive.google.com/open?id=1hiHoDt3u7_GfeICMdEBt2Of8vXr1RF-U)<br>
 
 
 
